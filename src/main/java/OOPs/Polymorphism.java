@@ -7,7 +7,8 @@ class Add{
         return a+b;
     }
 
-    public double sumdouble (double a, double b){
+
+    public double sum (double a, double b){
         return  a+b;
     }
 
@@ -19,7 +20,7 @@ public class Polymorphism {
         Add s=new Add();
         // Compile time polymorphism
         s.sum(5,6);
-        s.sumdouble(5.00,6.00);
+        System.out.println( s.sum(5.00,6.00));
     }
 
 
