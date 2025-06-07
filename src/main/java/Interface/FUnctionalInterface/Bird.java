@@ -5,7 +5,8 @@ package Interface.FUnctionalInterface;
 //Functinla interface
 //it can only have one abstarct method
 // if any interface is only abstarct method it can alos be a functional interface
-// @FunctionalInterface you can give ths annotation if needed so that while in compile time if you want to gve more that one abstrarct method
+// @FunctionalInterface you can give ths annotation if needed so that while in compile time
+// if you want to gve more that one abstrarct method
 // it will thorw error
 
 @FunctionalInterface

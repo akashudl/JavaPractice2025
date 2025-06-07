@@ -17,13 +17,15 @@ public interface Bird {
 
      static void mystaticPublicmethod(){ // from sttaic we cna call other statci metghod oly
      myprivatestaticmethod();
+//         mystaticPublicmethod();
+
     }
     private void myprivatemethod(){
-
+       myprivatestaticmethod();
     }
 
     private static void myprivatestaticmethod(){
-
+        mystaticPublicmethod();
     }
 
 }

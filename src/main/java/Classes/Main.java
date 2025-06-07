@@ -2,6 +2,7 @@ package Classes;
 
 public class Main {
     public static void main(String[] args) {
+//        In Java, a top-level class cannot be private; it can only be public or package-private. However, nested (inner) classes can be declared private if needed.
 //        OuterClass.NestedClass nestedobj=new OuterClass.NestedClass();
 //        nestedobj.print();
 

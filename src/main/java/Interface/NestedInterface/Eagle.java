@@ -1,6 +1,6 @@
 package Interface.NestedInterface;
 
-public class Eagle implements Bird , Bird.NonFlyingBird{
+public class Eagle implements Bird , Bird.NonFlyingBird {
     @Override
     public void canfly() {
         System.out.println("Eagle can fly");

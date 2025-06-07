@@ -7,7 +7,8 @@ package Interface.NestedInterface;
 
 // Nested interface decaled with a class must be public
 // Nested interface can have access odifiers
-// If you are implementeing outer interface then only you need to provide implementation of outer interface method and vice versa of inner interface
+// If you are implementeing outer interface then only you need to provide implementation of outer interface method and
+// vice versa of inner interface
 
 
 import Interface.Car;
